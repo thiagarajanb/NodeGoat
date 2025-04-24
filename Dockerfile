@@ -1,10 +1,10 @@
-FROM node:22.9-alpine
+FROM node:22.15.0-alpine
 ENV WORKDIR /usr/src/app/
 WORKDIR $WORKDIR
 COPY package*.json $WORKDIR
 RUN npm install --production --no-cache
 
-FROM node:22.9-alpine
+FROM node:22.15.0-alpine
 ENV USER node
 ENV WORKDIR /home/$USER/app
 WORKDIR $WORKDIR
