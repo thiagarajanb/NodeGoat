@@ -11,7 +11,7 @@
     "csurf": "^1.8.3",
     "dont-sniff-mimetype": "^1.0.0",
     "express": "^4.21.1",
-    "express-session": "^1.18.1",
+    "express-session": "^1.18.2",
     "forever": "^4.0.0",
     "helmet": "^3.21.1",
     "marked": "4.0.10",
